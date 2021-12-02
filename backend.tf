@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
     bucket = "s3exercise-bucket"
-    key    = "terraform-lambda/terraform.tfstates"
+    key    = "lambdachallenge" # KEY must be unique for each PROJECT
   }
 }
